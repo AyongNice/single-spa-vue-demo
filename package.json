@@ -5,11 +5,16 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
+    "serve-single-spa": " export Mode=singleSpa && vue-cli-service serve ",
+    "build-single-spa": " export Mode=singleSpa && vue-cli-service build ",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
     "core-js": "^3.8.3",
-    "vue": "^2.6.14"
+    "single-spa": "^5.9.5",
+    "single-spa-vue": "^2.5.1",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",
