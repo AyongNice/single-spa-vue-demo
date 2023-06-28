@@ -1,0 +1,32 @@
+{
+  "name": "print-deom-chind",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "serve-single-spa": " export Mode=singleSpa && vue-cli-service serve ",
+    "build-single-spa": " export Mode=singleSpa && vue-cli-service build ",
+    "lint": "vue-cli-service lint"
+  },
+  "dependencies": {
+    "copy-webpack-plugin": "^11.0.0",
+    "core-js": "^3.8.3",
+    "single-spa-vue": "^2.5.1",
+    "systemjs-webpack-interop": "^2.3.7",
+    "vue": "^2.6.14",
+    "vue-router": "^3.5.2",
+    "vue-styled-components": "^1.6.0",
+    "webpack": "^5.88.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.16",
+    "@babel/eslint-parser": "^7.12.16",
+    "@vue/cli-plugin-babel": "~5.0.0",
+    "@vue/cli-plugin-eslint": "~5.0.0",
+    "@vue/cli-service": "~5.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^8.0.3",
+    "vue-template-compiler": "^2.6.14"
+  }
+}
